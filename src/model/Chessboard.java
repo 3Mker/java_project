@@ -26,6 +26,8 @@ public class Chessboard {
     private void initPieces() {
         grid[0][0].setPiece(new ChessPiece(PlayerColor.BLUE, "Elephant",8));
         grid[8][6].setPiece(new ChessPiece(PlayerColor.RED, "Elephant",8));
+//        grid[][].setPiece(new ChessPiece(PlayerColor.BLUE, "",));
+//        grid[][].setPiece(new ChessPiece(PlayerColor.RED, "",));
     }
 
     private ChessPiece getChessPieceAt(ChessboardPoint point) {
